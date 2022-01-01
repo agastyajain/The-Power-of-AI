@@ -1,0 +1,337 @@
+<html>
+<head>
+    <title>Artificial Intelligence</title>
+    <link rel="shortcut icon" href="images/favicon.png">
+    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        * {
+            font-family: Speak pro;
+            font-weight: 300;
+        }
+
+        body,
+        ul,
+        li {
+            margin: 0;
+            padding: 0;
+        }
+
+        nav {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            background-color: #012A4B;
+        }
+
+        .wrapper {
+            width: 96%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 2%;
+            height: 60px;
+        }
+
+        header {
+            background-color: #012A4B;
+            padding: 10px 0;
+        }
+
+        .logo {
+            margin: 0;
+            background-image: url(instagram.png);
+            background-size: 70px 70px;
+            float: left;
+            width: 70px;
+            height: 70px;
+        }
+
+        header nav {
+            float: right;
+        }
+
+        header:after {
+            content: "";
+            clear: both;
+            display: block;
+        }
+
+        header nav li {
+            list-style-type: none;
+            float: left;
+            margin-left: 20px;
+            margin-top: 20px;
+        }
+
+        header nav li a {
+            text-decoration: none;
+            color: white;
+            font-size: 21px;
+            text-transform: uppercase;
+        }
+
+        .logo {
+            margin: 0;
+            background-image: url(images/favicon.png);
+            background-size: 70px 70px;
+            float: left;
+            width: 70px;
+            height: 70px;
+        }
+
+        .logoTag {
+            margin-left: 95px;
+            color: white;
+            font-weight: bold;
+            font-size: 25px;
+        }
+
+        #banner {
+            width: 60%;
+            height: 350px;
+            margin-top: 0px;
+        }
+
+        .heading {
+            color: #012A4B;
+            font-weight: bold;
+            font-size: 48px;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .image {
+            height: 300px;
+            width: 400px;
+            margin-left: 40px;
+            margin-top: 20px;
+            border-radius: 70px;
+            border: 5px solid darkviolet;
+        }
+
+        #flexbox {
+            display: flex;
+        }
+
+        .description {
+            margin-left: 20px;
+            margin-right: 20px;
+            text-align: center;
+            color: #012A4B;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        .fH {
+            font-size: 36px;
+            color: #012A4B;
+            font-weight: bold;
+            text-align: center;
+        }
+
+        #usp {
+            margin-top: 10px;
+        }
+
+        #usp li {
+            float: left;
+            width: 23%;
+            text-align: center;
+            padding: 1%;
+            list-style-type: none;
+        }
+
+        #usp li img {
+            height: 120px;
+            padding: 10px;
+            background-color: #012A4B;
+            margin-left: auto;
+            margin-right: auto;
+            width: 50%;
+        }
+
+        #usp li h2 {
+            font-size: 16px;
+            font-weight: 400;
+        }
+
+        #usp:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+
+        .cIc {
+            width: 50%;
+            height: 400px;
+        }
+
+        .cI {
+            width: 80%;
+            height: 350px;
+            border-radius: 70px;
+            border: 5px solid darkviolet;
+            margin: auto;
+            margin-top: 25px;
+            margin-bottom: 25px;
+        }
+
+        #creations {
+            display: flex;
+            margin-top: 10px;
+        }
+
+        .cd {
+            width: 50%;
+        }
+
+        .cict{
+            margin-left: 25px;
+            margin-right: 25px;
+            text-align: center;
+            color: #012A4B;
+            font-weight: bold;
+            font-size: 24px;
+            margin-top: 10px;
+        }
+
+        .logo:hover{
+            cursor: pointer;
+        }
+
+        footer{
+            width: 100%;
+            margin-top: 60px;
+            background-color: #012A4B;
+            padding: 30px 0;
+        }
+        footer ul{
+            float: left;
+            width: 48%;
+            margin: 1%;
+        }
+        footer ul h3{
+            font-size: 50px;
+            color: azure;
+        }
+        footer ul li{
+            font-size: 20px;
+            color: azure;
+            list-style-type: none;
+        }
+        footer:after {
+            content: "";
+            display: block;
+            clear: both;
+        }
+    </style>
+
+</head>
+
+<body>
+    
+    <header>
+        <div class="wrapper">
+                <div class="logo">
+                    <h2 class="logoTag">ARTIFICIAL INTELLIGENCE</h2>
+                </div>
+            <nav>
+                <ul>
+                    <li> <a href="#flexbox">Home</a></li>
+                    <li> <a href="#features">Features</a></li>
+                    <li> <a href="#creations">Creation</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div id="flexbox">
+        <div id="banner">
+            <h1 class="heading">Programming AI</h1>
+            <p class="description">
+                Artificial intelligence (AI) is the ability of a computer program or a machine to think and learn. It is
+                also a field of study which tries to make computers "smart". They work on their own without being
+                encoded with commands. Artificial intelligence is intelligence demonstrated by machines, as opposed to
+                natural intelligence displayed by animals including humans. According to the current system of
+                classification, there are four primary AI types: reactive, limited memory, theory of mind, and
+                self-aware. One of the greatest innovators in the field was John McCarthy, widely recognized as the
+                father of Artificial Intelligence due to his astounding contribution in the field of Computer Science
+                and AI.
+            </p>
+        </div>
+        <div>
+            <img src="images/logo.png" alt="banner" class="image">
+        </div>
+    </div>
+
+    <hr>
+
+    <div id="features">
+        <h1 class="fH">FEATURES OF <b>AI</b></h1>
+        <section id="usp">
+            <ul type="square">
+                <li>
+                    <img src="images/feature4.png">
+                    <h2>Chatbots</h2>
+                </li>
+                <li>
+                    <img src="images/feature1.png">
+                    <h2>Deep Learning</h2>
+                </li>
+                <li>
+                    <img src="images/feature2.png">
+                    <h2>Facial Recognition</h2>
+                </li>
+                <li>
+                    <img src="images/feature3.png">
+                    <h2>Automation of Tasks</h2>
+                </li>
+                <li>
+                    <img src="images/feature5.png">
+                    <h2>Cloud Computing</h2>
+                </li>
+                <li>
+                    <img src="images/feature6.png">
+                    <h2>Data Ingestion</h2>
+                </li>
+                <li>
+                    <img src="images/feature8.png">
+                    <h2>Quantum Computing</h2>
+                </li>
+                <li>
+                    <img src="images/feature7.png">
+                    <h2>Machine Learning</h2>
+                </li>
+            </ul>
+        </section>
+    </div>
+
+    <hr>
+
+    <div id="creations">
+        <div class="cIc">
+            <img src="images/creation.png" alt="image" class="cI">
+        </div>
+        <div class="cD">
+            <h1 class="heading">Creation of AI</h1>
+            <h2 class="cict">
+                The seeds of modern AI were planted by classical philosophers who attempted to describe the process of
+                human thinking as the mechanical manipulation of symbols. This work culminated in the invention of the
+                programmable digital computer in the 1940s, a machine based on the abstract essence of mathematical
+                reasoning.
+            </h2>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrapper">
+            <ul>
+                <h3> Get In Touch</h3>
+                <li> Programming</li>
+                <li> Learn More Today</li>
+                <li> Call Today- +91 9811915851</li>
+            </ul>
+            <iframe src="https://youtu.be/wTbrk0suwbg" width="550" height="200"></iframe>
+            
+    </footer>
+</body>
+</html>
